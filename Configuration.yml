@@ -1,0 +1,41 @@
+# Engine Configuration
+
+# Server Information
+Server: 'MinecraftServer'
+Website: 'MinecraftServer.net'
+Discord: 'discord.com/yourdiscord'
+Buycraft: 'buy.MinecraftServer.net'
+
+# Permissions
+OP-Grade: 4
+Administrators:
+- 'Player1'
+- 'Player2'
+Operators:
+- 'Player1'
+- 'Player2'
+
+# Console
+BroadcastConsole: true
+ConsoleSecurity: false
+
+# Network Settings
+Online: true
+IP: 127.0.0.1
+Port: 25565
+Compression: 256
+
+# Players
+Slots: 200
+Achievements: false
+Render: 10
+
+# World
+LevelName: 'server'
+BuildHeight: 256
+Nether: true
+Gamemode: 0
+Level: 'default'
+
+# Other
+ID: 0001

@@ -1,0 +1,38 @@
+# Server Commands
+
+command:
+ reload:
+  permission: 'Server.*'
+  grade: 3
+ reboot:
+  permission: 'Server.*'
+  grade: 4
+ shutdown:
+  permission: 'Server.*'
+  grade: 5
+ op:
+  permission: 'Server.Admin'
+  grade: 6
+ deop:
+  permission: 'Server.Admin'
+  grade: 6
+  
+messages:
+ permission message:
+ - '&cYou are &nnot&c permitted to access this command,'
+ - '&cas you lack the required &npermission grade&c.'
+ reload:
+ - '&7The server is now reloading, however, this may'
+ - '&7take up to 10 minutes, depending on how many plugins are installed.'
+ reboot:
+ - '&7This process will take up to 10 minutes, please be patient.'
+ - '&7Once this process is finished, this instance of the server will &nend&7.'
+ shutdown:
+ - '&7The server is going to shutdown in 25 seconds,'
+ - '&7you will have to start the server back up yourself.'
+ op:
+ - '&7Player %PLAYER% is now a Grade %GRADE% Operator.'
+ - '&7It is recommended that you only give people you trust &nGrade 4 or higher&7.'
+ deop:
+ - '&7Player %PLAYER% is no longer a Grade %GRADE% Operator.'
+ - '&7They are required to reconnect in order for their permissions to synchronize.'

@@ -1,1 +1,31 @@
 # Engine Permissions
+
+permissions:
+ players:
+  nodes:
+  - 'player.help'
+  - 'player.website'
+  - 'player.discord'
+  - 'player.buycraft'
+  groups:
+  - 'player'
+ administrators:
+  nodes:
+  - 'server.reload'
+  - 'server.reboot'
+  groups:
+  - 'administrators'
+ operators:
+  nodes:
+  - 'server.shutdown'
+  - 'server.say'
+  - 'server.ban'
+  - 'server.kick'
+  groups:
+  - 'operators'
+  - 'administrators'
+  
+tags:
+ player: '&7[Player]'
+ admin: '&7[Admin]'
+ operator: '&7[Admin]'
